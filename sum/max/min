@@ -1,0 +1,42 @@
+def suma_lista(lista):
+    suma = 0
+    for elemento in lista:
+        suma += elemento
+    return suma
+
+mi_lista = [1, 2, 3, 4, 5]
+resultado = suma_lista(mi_lista)
+print("sum=",resultado)
+
+def longitud_lista(lista):
+    contador=0
+    for elemento in lista:
+        contador+=1
+    return contador
+   
+mi_lista = [1, 2, 3, 4, 5]
+resultado = longitud_lista(mi_lista)
+print("longitud=",resultado)
+
+       
+def maximo_lista(lista):
+    max=-99999
+    for elemento in lista:
+       if elemento>max:
+           max=elemento
+    return max
+mi_lista = [1, 2, 3, 4, -5]
+resultado = maximo_lista(mi_lista)
+print("max=",resultado)
+
+def minimo_lista(lista):
+    min=99999
+    for elemento in lista:
+        if elemento<min:
+            min=elemento
+    return min
+mi_lista = [1, 2, 3, 4, 5]
+resultado = minimo_lista(mi_lista)
+print("min=",resultado)
+
+
