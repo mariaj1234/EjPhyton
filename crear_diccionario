@@ -1,0 +1,12 @@
+# Crear un diccionario utilizando comprensión de listas
+nombres = ["Juan", "María", "Pedro"]
+edades = [25, 30, 35]
+
+diccionario = {nombre: edad for nombre, edad in zip(nombres, edades)}
+
+print(diccionario)
+
+lista = ['MAR', 'sol', 'tierra']
+l = {x:x[::-1] for x in lista}
+print(l)
+
