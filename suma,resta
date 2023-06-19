@@ -1,0 +1,29 @@
+
+def suma(a, b):
+    return a + b
+
+def resta(a, b):
+    return a - b
+
+def multiplicacion(a, b):
+    return a * b
+
+def division(a, b):
+    return a / b
+
+a = 5
+b = 10
+
+x = suma(a, b)
+print(x)
+
+x = resta(a, b)
+print(x)
+
+x = multiplicacion(a, b)
+print(x)
+
+x = division(a, b)
+print(x)
+
+
