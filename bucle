@@ -1,0 +1,19 @@
+#Bucle infinito de un programa aleatorio que cuando llegue a 500 pare
+
+import random
+
+def  f(x,y,z):
+    while True:
+        aleat = random.randint(x,y)
+        print(aleat)
+        if aleat == z:
+            break
+   
+a=10
+b=100
+c=41   
+f(a,b,c)  
+
+ 
+print('FIN')    
+
