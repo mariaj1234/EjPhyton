@@ -1,0 +1,16 @@
+# define un método que reciba una lista de conjuntos y tiene que devolber un conjunto con todos los elementos que tenga en la lista
+
+l= [{},{},{},{'a'},{1},{1},{1.02},{1,1}]
+
+
+def  f(lista):
+    c1 = set()
+    for elem in lista:
+        c1.update(elem)
+       
+    return c1
+
+
+
+
+print (f(l))
