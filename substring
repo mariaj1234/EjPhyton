@@ -1,0 +1,12 @@
+#la función substring tiene 3 parámetros una es el string que queremos obtener de el, 
+#el seguando parámetros es desde donde quieres empezar y el tercero es la longitud.
+
+# Parsear el archivo XML
+
+from lxml import etree
+
+documento = etree.parse("empleados.xml")
+
+empleados = documento.xpath("//empleado[substring(fecha_nac, 7) < '1985']/nombre")
+for e in empleados:
+    print(e.text)
